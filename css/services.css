@@ -184,6 +184,11 @@ body{
     #top-nav header .nav-img {
         margin: 2% 0;
     }
+
+    #top-nav header .menu nav ul .first-link {
+        color: black;
+    }
+
     /* TOP SECTION  */
     .top-sec {
         width: 100%;
@@ -207,8 +212,40 @@ body{
     /* MID SECTION STYLES  */
 
     #mid-sec {
-        padding: 3% 0;
+        padding:0;
     }
+
+    #mid-sec .mid-sec-ser {
+        background-image: url('../img/services-header.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 3%;
+    }
+
+    #mid-sec .mid-sec-ser .text {
+        background: #FFF;
+        padding: 3%;
+    }
+
+    #mid-sec .mid-sec-ser ul {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    #mid-sec .mid-sec-ser ul li {
+        border: solid 1px black;
+        border-radius: 10px;
+        padding: .5% 3%;
+        font-size: .8rem;
+        background: lightgrey;
+    }
+
+    #mid-sec .mid-sec-ser ul li:hover {
+        background: lightsteelblue;
+    }
+
 }
 
 /* MOBILE SIZE 500PX */
